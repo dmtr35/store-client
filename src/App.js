@@ -22,6 +22,9 @@ const App = observer(() => {
     return <Spinner animation={"grow"} />
   }
 
+  console.log(process.env.REACT_APP_API_URL);
+  
+
   return (
     <BrowserRouter>
       <NavBar />
